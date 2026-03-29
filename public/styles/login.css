@@ -1,0 +1,59 @@
+body {
+    background-color: #1f2a44;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #ed145b;
+}
+
+.header h1 {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.card-login {
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #63b1bc;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.formulario button {
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container p {
+    color: #63b1bc;
+}
+
+
+.footer {
+    background-color: #ed145b;
+    padding: 20px; 
+    text-align: center;
+    color: white;
+}
